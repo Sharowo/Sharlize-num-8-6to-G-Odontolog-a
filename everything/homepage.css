@@ -1,0 +1,254 @@
+body {
+  margin: 0;
+  padding-bottom: 50px;
+  background-color: rgb(255, 255, 230);
+}
+
+.nav-bar {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #db7272;
+  position: fixed;
+  z-index: 100;
+}
+
+.nav-bar a {
+  display: inherit;
+  align-items: inherit;
+  text-decoration: none;
+  color: #ffdfdf;
+  transition: 0.3s;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.nav-bar i {
+  margin-right: 10px;
+}
+
+.nav-bar a:hover {
+  color: #793535;
+}
+
+.start img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  position: absolute;
+}
+
+.start div {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-color: #db7272;
+  opacity: 0.3;
+}
+
+.img-divider {
+  width: 100%;
+  height: 10px;
+  background-color: #db7272;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: -70px;
+  font-size: 70px;
+  color: #bd5151;
+}
+
+.logo img {
+  height: 300px;
+  width: 600px;
+  object-fit: cover;
+  object-position: top;
+  margin-top: 60px;
+}
+
+.nav-bar-2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+  height: 70px;
+  align-items: center;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-left-style: none;
+  border-right-style: none;
+  border-top-color: #f19393;
+  border-bottom-color: #f19393;
+  border-width: 2px;
+}
+
+.nav-bar-2 h1 {
+  font-size: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  transition: 0.2s;
+}
+
+.nav-bar-2 h1:hover {
+  color: #bd5151;
+  cursor: pointer;
+}
+
+main .title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  margin-top: 40px;
+}
+
+main .title h1 {
+  font-size: 80px;
+  color: #db7272;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.aside-and-sections {
+  display: flex;
+}
+
+.section-names-and-divider {
+  display: flex;
+}
+
+.section-names {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+
+main .section-names h6 {
+  position: relative;
+  text-align: right;
+  font-size: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-bottom: 0;
+  margin-left: 60px;
+}
+
+main .section-names h6:hover {
+  cursor: pointer;
+}
+
+.divider {
+  margin-top: 50px;
+  margin-left: 40px;
+  background-color: #db7272;
+  height: 470px;
+  width: 2px;
+  color: #db7272;
+}
+
+.placeholder {
+  margin-top: 160px;
+  margin-left: 180px;
+  width: 600px;
+  font-size: 60px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #db7272;
+}
+.hide {
+  display: none;
+}
+
+.what {
+  display: none;
+}
+
+.for {
+  display: none;
+}
+
+.importance {
+  display: none;
+}
+
+.sick {
+  display: none;
+}
+
+.show {
+  display: block;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 700px;
+  color: #db7272;
+  animation-name: show;
+  animation-duration: 0.8s;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+@keyframes show {
+  from {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.paragraph {
+  font-size: 23px;
+  color: black;
+}
+
+.division {
+  color: #db7272;
+  background-color: #db7272;
+  height: 2px;
+  margin-top: 150px;
+}
+
+footer {
+  margin-top: 50px;
+  display: flex;
+}
+
+footer i {
+  margin-right: 10px;
+}
+
+.logo-2 {
+  height: 300px;
+  width: 600px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.elem-pair {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  color: #bd5151;
+}
+
+footer h3 {
+  font-size: 24px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #bd5151;
+}
+
+footer p {
+  width: 300px;
+}
+
+.punta-cana {
+  margin-right: 50px;
+}
