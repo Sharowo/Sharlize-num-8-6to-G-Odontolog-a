@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding-bottom: 50px;
+  background-color: rgb(255, 255, 230);
+}
+
+h1 {
+  font-size: 60px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #bd5151;
+}
+
+p {
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  width: 600px;
+}
+
+.decor {
+  height: 605px;
+  width: 3px;
+  background-color: #bd5151;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.all {
+  display: flex;
+}
+
+heading-n-text {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  margin-bottom: 25px;
+}
+
+.logo {
+  height: 250px;
+  width: 800px;
+  object-fit: cover;
+  object-position: top;
+  margin-top: 150px;
+}
+
+.division {
+  color: #db7272;
+  background-color: #db7272;
+  height: 2px;
+}
+
+footer {
+  margin-top: 50px;
+  display: flex;
+}
+
+footer i {
+  margin-right: 10px;
+}
+
+.logo-2 {
+  height: 300px;
+  width: 600px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.elem-pair {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  color: #bd5151;
+}
+
+footer h3 {
+  font-size: 24px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #bd5151;
+}
+
+footer p {
+  width: 300px;
+}
+
+.punta-cana {
+  margin-right: 50px;
+}

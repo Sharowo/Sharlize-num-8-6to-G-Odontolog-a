@@ -90,14 +90,20 @@ body {
   border-width: 2px;
 }
 
-.nav-bar-2 h1 {
-  font-size: 15px;
+.nav-bar-2 a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   transition: 0.2s;
 }
 
-.nav-bar-2 h1:hover {
+.nav-bar-2 a:visited {
+  color: black;
+}
+
+.nav-bar-2 a:hover {
   color: #bd5151;
   cursor: pointer;
 }
